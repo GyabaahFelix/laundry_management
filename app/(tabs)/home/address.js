@@ -317,7 +317,7 @@ const address = () => {
     <View style={{ flex: 1 }}>
       <View
         style={{
-          backgroundColor: "#FEBE10",
+          backgroundColor: "#ac3d84",
           padding: 10,
           flexDirection: "row",
           alignItems: "center",

@@ -61,7 +61,7 @@ const register = () => {
     <SafeAreaView
       style={{ flex: 1, backgroundColor: "white", alignItems: "center" }}
     >
-      <View style={{ height: 200, backgroundColor: "#FEBE10", width: "100%" }}>
+      <View style={{ height: 200, backgroundColor: "#ac3d84", width: "100%" }}>
         <View
           style={{
             marginTop: 25,
@@ -96,7 +96,7 @@ const register = () => {
               fontSize: 17,
               fontWeight: "bold",
               marginTop: 25,
-              color: "#FEBE10",
+              color: "#ac3d84",
             }}
           >
             Register to your Account
@@ -109,7 +109,7 @@ const register = () => {
               flexDirection: "row",
               alignItems: "center",
               gap: 5,
-              backgroundColor: "#FEBE10",
+              backgroundColor: "#ac3d84",
               paddingVertical: 5,
               borderRadius: 5,
               marginTop: 30,
@@ -140,7 +140,7 @@ const register = () => {
               flexDirection: "row",
               alignItems: "center",
               gap: 5,
-              backgroundColor: "#FEBE10",
+              backgroundColor: "#ac3d84",
               paddingVertical: 5,
               borderRadius: 5,
               marginTop: 30,
@@ -188,7 +188,7 @@ const register = () => {
           onPress={handleRegister}
           style={{
             width: 200,
-            backgroundColor: "#FEBE10",
+            backgroundColor: "#ac3d84",
             borderRadius: 6,
             marginLeft: "auto",
             marginRight: "auto",

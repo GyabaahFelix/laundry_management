@@ -17,7 +17,7 @@ const index = () => {
     const router = useRouter();
   return (
     <ScrollView>
-      <View style={{ padding: 12, height: 200, backgroundColor: "#FEBE10" }}>
+      <View style={{ padding: 12, height: 200, backgroundColor: "#ac3d84" }}>
         <View
           style={{
             flexDirection: "row",
@@ -45,7 +45,7 @@ const index = () => {
           }}
         >
           <View>
-            <Text style={{ fontSize: 13, fontFamily: "Kailasa-Bold" }}>
+            <Text style={{ fontSize: 13, color: "white", fontFamily: "Kailasa-Bold" }}>
               Hi Sujan!
             </Text>
             <Text
@@ -63,7 +63,7 @@ const index = () => {
             <Ionicons
               name="information-circle-outline"
               size={24}
-              color="black"
+              color="white"
             />
             <Text
               style={{
@@ -71,6 +71,7 @@ const index = () => {
                 fontSize: 12,
                 color: "#0066b2",
                 fontFamily: "KohinoorTelugu-Medium",
+                color: "white",
               }}
             >
               QUICK HELP
@@ -121,13 +122,13 @@ const index = () => {
               <Pressable
               onPress={() => router.push("/home/address")}
                 style={{
-                  backgroundColor: "#FEBE10",
+                  backgroundColor: "#ac3d84",
                   paddingHorizontal: 10,
                   paddingVertical: 5,
                   borderRadius: 4,
                 }}
               >
-                <Text style={{ fontSize: 13, fontWeight: "400" }}>
+                <Text style={{ fontSize: 13, fontWeight: "400", color: "white" }}>
                   BOOK NOW
                 </Text>
               </Pressable>
@@ -152,7 +153,7 @@ const index = () => {
           <View style={{ flexDirection: "row", alignItems: "center", gap: 10 }}>
             <View>
               <Text
-                style={{ color: "#FEBE10", fontSize: 15, fontWeight: "bold" }}
+                style={{ color: "#ac3d84", fontSize: 15, fontWeight: "bold" }}
               >
                 Club{" "}
                 <Text
@@ -201,7 +202,7 @@ const index = () => {
             <Ionicons name="basket-outline" size={24} color="#034694" />
             <View>
               <Text
-                style={{ color: "#FEBE10", fontSize: 15, fontWeight: "bold" }}
+                style={{ color: "#ac3d84", fontSize: 15, fontWeight: "bold" }}
               >
                 Place Your{" "}
                 <Text
@@ -302,7 +303,7 @@ const index = () => {
             <Text
               style={{
                 fontSize: 20,
-                color: "#FEBE10",
+                color: "#ac3d84",
                 width: 100,
                 fontWeight: "bold",
               }}

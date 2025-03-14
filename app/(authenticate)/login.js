@@ -47,7 +47,7 @@ const login = () => {
     <SafeAreaView
       style={{ flex: 1, backgroundColor: "white", alignItems: "center" }}
     >
-      <View style={{ height: 200, backgroundColor: "#FEBE10", width: "100%" }}>
+      <View style={{ height: 200, backgroundColor: "#ac3d84", width: "100%" }}>
         <View
           style={{
             marginTop: 25,
@@ -82,7 +82,7 @@ const login = () => {
               fontSize: 17,
               fontWeight: "bold",
               marginTop: 25,
-              color: "#FEBE10",
+              color: "#ac3d84",
             }}
           >
             Log in to your Account
@@ -95,7 +95,7 @@ const login = () => {
               flexDirection: "row",
               alignItems: "center",
               gap: 5,
-              backgroundColor: "#FEBE10",
+              backgroundColor: "#ac3d84",
               paddingVertical: 5,
               borderRadius: 5,
               marginTop: 30,
@@ -126,7 +126,7 @@ const login = () => {
               flexDirection: "row",
               alignItems: "center",
               gap: 5,
-              backgroundColor: "#FEBE10",
+              backgroundColor: "#ac3d84",
               paddingVertical: 5,
               borderRadius: 5,
               marginTop: 30,
@@ -174,7 +174,7 @@ const login = () => {
           onPress={handleLogin}
           style={{
             width: 200,
-            backgroundColor: "#FEBE10",
+            backgroundColor: "#ac3d84",
             borderRadius: 6,
             marginLeft: "auto",
             marginRight: "auto",

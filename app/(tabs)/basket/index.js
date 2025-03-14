@@ -12,7 +12,7 @@ const index = () => {
       <View
         style={{
           padding: 10,
-          backgroundColor: "#0066b2",
+          backgroundColor: "#ac3d84",
           flexDirection: "row",
           alignItems: "center",
           justifyContent: "space-between",

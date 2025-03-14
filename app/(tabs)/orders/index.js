@@ -35,7 +35,7 @@ const index = () => {
   }, []);
   console.log("orders", orders);
   return (
-    <View style={{ padding: 12, height: 200, backgroundColor: "#FEBE10" }}>
+    <View style={{ padding: 12, height: 200, backgroundColor: "#ac3d84" }}>
       <View
         style={{
           flexDirection: "row",

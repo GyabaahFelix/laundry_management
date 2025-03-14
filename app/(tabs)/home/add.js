@@ -134,7 +134,7 @@ const add = () => {
         <Pressable
           onPress={addAddress}
           style={{
-            backgroundColor: "#FEBE10",
+            backgroundColor: "#ac3d84",
             padding: 19,
             borderRadius: 6,
             justifyContent: "center",

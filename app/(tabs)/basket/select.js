@@ -151,7 +151,7 @@ const select = () => {
   return (
     <>
       <ScrollView>
-        <View style={{ backgroundColor: "#FEBE10", padding: 12 }}>
+        <View style={{ backgroundColor: "#ac3d84", padding: 12 }}>
           <View
             style={{
               flexDirection: "row",
